@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "Spec-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nameLabel",
+		"nameTextInput",
+		"surnameLabel",
+		"surnameTextInput"
+	],
+	"name" : "SpecDemoFormPresenter",
+	"type" : "normal"
+}
