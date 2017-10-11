@@ -19,6 +19,29 @@ defaultSpec
 				row add: #surnameTextInput ]
 			height: rowHeight.
 
-			 ] origin: 0@0 corner: 1@0 offsetOrigin: 0@0 offsetCorner: 0@(rowHeight*1.1*2);
+			col newRow: [ :row | 
+				row add: #number1Label right: labelsWidth..
+				row add: #number1Input ]
+			height: rowHeight.
+
+		col newRow: [ :row | 
+				row add: #number2Label right: labelsWidth..
+				row add: #number2Input ]
+			height: rowHeight.
+
+		col newRow: [ :row | 
+				row add: #scaleLabel right: labelsWidth..
+				row add: #scaleInput ]
+			height: rowHeight.
+
+		col newRow: [ :row | 
+				row add: #passwordLabel right: labelsWidth..
+				row add: #passwordInput ]
+			height: rowHeight.
+
+
+		col newRow: [ :row |  ].
+			
+			 ] 
 			
 		yourself.	
