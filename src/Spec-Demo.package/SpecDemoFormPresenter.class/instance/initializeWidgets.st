@@ -20,6 +20,9 @@ initializeWidgets
 	passwordLabel := self newLabel label: 'password:'.
 	passwordInput := self newTextInput encrypted: true.
 
+	checkboxLabel := self newLabel label: 'remember me'.
+	checkboxInput := self newCheckBox state: true.
+
 	
 	self focusOrder 
 		add: nameTextInput;
