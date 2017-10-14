@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "Spec-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"menu",
+		"list",
+		"page"
+	],
+	"name" : "SpecDemo",
+	"type" : "normal"
+}
