@@ -25,9 +25,8 @@
 		"dateLabel",
 		"dateInput",
 		"genderLabel",
-		"maleLabel",
+		"genderGroup",
 		"maleInput",
-		"femaleLabel",
 		"femaleInput",
 		"itemsLabel",
 		"itemsInput"

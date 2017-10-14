@@ -23,6 +23,22 @@ initializeWidgets
 	checkboxLabel := self newLabel label: 'remember me'.
 	checkboxInput := self newCheckBox state: true.
 
+	colorLabel := self newLabel label: 'color:'.
+	colorInput := self newTextInput.
+
+	dateLabel := self newLabel label: 'date:'.
+	dateInput := self instantiate: DateModel.
+
+	genderLabel := self newLabel label: 'gender:'.
+	genderGroup := self instantiate: RadioButtonGroupModel .
+	genderGroup
+		addRadioButton: (RadioButtonModel new label: 'male');
+		addRadioButton: (RadioButtonModel new label: 'female').
+	
+	itemsLabel := self newLabel label: 'items:'.
+	itemsInput := self newList.
+	itemsInput items: (1 to: 5).
+	
 	
 	self focusOrder 
 		add: nameTextInput;
@@ -30,5 +46,7 @@ initializeWidgets
 		add: number1Input;
 		add: number2Input;
 		add: scaleInput;
-		add: passwordInput.
+		add: passwordInput;
+		add: checkboxInput;
+		add: colorInput.
 		
