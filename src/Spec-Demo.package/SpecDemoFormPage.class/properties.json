@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "Spec-Demo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tabManager"
+	],
+	"name" : "SpecDemoFormPage",
+	"type" : "normal"
+}
