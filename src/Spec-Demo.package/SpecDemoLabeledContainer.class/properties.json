@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposableModel",
+	"super" : "LabelledContainer",
 	"category" : "Spec-Demo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"form",
-		"table"
-	],
-	"name" : "SpecDemoFormPresenter",
+	"instvars" : [ ],
+	"name" : "SpecDemoLabeledContainer",
 	"type" : "normal"
 }
