@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "PavelKrivanek 10/14/2017 17:59",
-	"super" : "ComposableModel",
+	"super" : "ComposablePresenter",
 	"category" : "Spec-Demo",
 	"classinstvars" : [ ],
 	"pools" : [ ],

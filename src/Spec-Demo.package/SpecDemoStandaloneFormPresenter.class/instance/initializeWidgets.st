@@ -27,13 +27,13 @@ initializeWidgets
 	colorInput := self newTextInput.
 
 	dateLabel := self newLabel label: 'date:'.
-	dateInput := self instantiate: DateModel.
+	dateInput := self instantiate: DatePresenter.
 
 	genderLabel := self newLabel label: 'gender:'.
-	genderGroup := self instantiate: RadioButtonGroupModel .
+	genderGroup := self instantiate: RadioButtonGroupPresenter .
 	genderGroup
-		addRadioButton: (RadioButtonModel new label: 'male');
-		addRadioButton: (RadioButtonModel new label: 'female').
+		addRadioButton: (RadioButtonPresenter new label: 'male');
+		addRadioButton: (RadioButtonPresenter new label: 'female').
 	
 	itemsLabel := self newLabel label: 'items:'.
 	itemsInput := self newList.
