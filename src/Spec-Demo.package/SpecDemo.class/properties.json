@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "DynamicComposablePresenter",
+	"super" : "ComposablePresenter",
 	"category" : "Spec-Demo",
 	"classinstvars" : [ ],
 	"pools" : [ ],

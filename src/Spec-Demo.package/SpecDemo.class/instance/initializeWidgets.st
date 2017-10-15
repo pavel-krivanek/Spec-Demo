@@ -7,8 +7,7 @@ initializeWidgets
 	list := self newList.
 	list 
 		items: self model availablePages;
-		displayBlock: [:item | item pageName];
-		setSelectedItem: self model pageClass.
+		displayBlock: [:item | item pageName].
 	page := (self instantiate: self model pageClass).
 	
 	self focusOrder 
