@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "SpecDemoPage",
-	"category" : "Spec-Demo-Forms",
+	"category" : "Spec-Demo-Buttons",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpecDemoFormPage",
+	"name" : "SpecDemoCheckboxesPage",
 	"type" : "normal"
 }

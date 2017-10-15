@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "ComposablePresenter",
-	"category" : "Spec-Demo-Forms",
+	"category" : "Spec-Demo-Support",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"form",
-		"table"
+		"tabManager"
 	],
-	"name" : "SpecDemoFormPresenter",
+	"name" : "SpecDemoPage",
 	"type" : "normal"
 }

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "LabelledContainer",
-	"category" : "Spec-Demo",
+	"category" : "Spec-Demo-Support",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

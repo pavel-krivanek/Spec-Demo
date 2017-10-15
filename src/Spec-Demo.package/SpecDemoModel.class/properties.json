@@ -1,16 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "DynamicComposablePresenter",
+	"super" : "Object",
 	"category" : "Spec-Demo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"menu",
-		"list",
-		"page",
-		"model"
+		"pageClass"
 	],
-	"name" : "SpecDemo",
+	"name" : "SpecDemoModel",
 	"type" : "normal"
 }
