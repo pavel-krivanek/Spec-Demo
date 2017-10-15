@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"form",
-		"table"
+		"table",
+		"model"
 	],
 	"name" : "SpecDemoFormPresenter",
 	"type" : "normal"

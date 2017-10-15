@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Spec-Demo-Forms",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"surname",
+		"number1",
+		"number2",
+		"scale",
+		"password",
+		"rememberMe",
+		"color",
+		"date",
+		"gender",
+		"selectedItems"
+	],
+	"name" : "SpecDemoFormModel",
+	"type" : "normal"
+}

@@ -67,6 +67,11 @@ defaultSpec
 				row add: #itemsInput ]
 			height: rowHeight*6.
 	
+	col newRow: [ :row | 
+				row add: #submitButton.
+				row add: #restoreButton ]
+			height: rowHeight*1.3.
+
 
 		"fill the rest of the space"
 		col newRow: [ :row |  ].

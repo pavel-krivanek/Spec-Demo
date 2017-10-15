@@ -38,7 +38,9 @@ initializeWidgets
 	itemsLabel := self newLabel label: 'items:'.
 	itemsInput := self newList.
 	itemsInput items: (1 to: 5).
-	
+
+	submitButton := self newButton label: 'Submit'.
+	restoreButton := self newButton label: 'Restore'.
 	
 	self focusOrder 
 		add: nameTextInput;
