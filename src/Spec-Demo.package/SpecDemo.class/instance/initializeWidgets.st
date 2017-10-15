@@ -4,11 +4,13 @@ initializeWidgets
 	menu := self mainMenu.
 	menu applyTo: self.
 	
+	selectedPage := self availablePages first.
+	
 	list := self newList.
 	list 
-		items: self model availablePages;
+		items: self availablePages;
 		displayBlock: [:item | item pageName].
-	page := (self instantiate: self model pageClass).
+	page := (self instantiate: selectedPage).
 	
 	self focusOrder 
 		add: list;

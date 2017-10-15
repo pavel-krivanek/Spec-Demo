@@ -9,7 +9,7 @@
 		"menu",
 		"list",
 		"page",
-		"model"
+		"selectedPage"
 	],
 	"name" : "SpecDemo",
 	"type" : "normal"
