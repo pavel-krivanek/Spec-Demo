@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "Spec-Demo-Buttons",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buttonNormal",
+		"buttonDisabled"
+	],
+	"name" : "SpecDemoButtonsPresenter",
+	"type" : "normal"
+}

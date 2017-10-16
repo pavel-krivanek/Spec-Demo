@@ -1,4 +1,4 @@
 initialization
 pageClass
 
-	^ ButtonPresenter
+	^ SpecDemoButtonsPresenter
