@@ -5,12 +5,12 @@ initializeWidgets
 
 	form := (self instantiate: SpecDemoLabeledContainer)
 		label: 'form';
-		subwidget: (self instantiate:  SpecDemoStandaloneFormPresenter).
+		subwidget: (self instantiate:  SpecDemoStandaloneFormPresenter on: self model).
 	table := (self instantiate: SpecDemoLabeledContainer)
 		label: 'result';
 		subwidget: (tablePresenter := self newList).
 	
-	tablePresenter numberOfColumns: 2 withWidths: #(250 250).
+	"tablePresenter numberOfColumns: 2 withWidths: #(250 250)."
 	"
 	tablePresenter whenBuiltDo: [:ann|
 		| ftTable |

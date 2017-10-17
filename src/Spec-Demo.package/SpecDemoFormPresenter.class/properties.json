@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposablePresenter",
+	"super" : "ComposablePresenterWithModel",
 	"category" : "Spec-Demo-Forms",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"form",
-		"table",
-		"model"
+		"table"
 	],
 	"name" : "SpecDemoFormPresenter",
 	"type" : "normal"

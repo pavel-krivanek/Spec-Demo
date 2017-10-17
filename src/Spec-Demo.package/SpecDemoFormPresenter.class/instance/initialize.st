@@ -1,5 +1,5 @@
 accessing
 initialize
 
-	model := SpecDemoFormModel new.
+	self model: SpecDemoFormModel new.
 	super initialize.
