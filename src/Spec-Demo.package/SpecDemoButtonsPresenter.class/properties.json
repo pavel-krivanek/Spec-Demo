@@ -9,11 +9,13 @@
 		"buttonNormal",
 		"buttonDisabled",
 		"buttonWithIcon",
+		"buttonWithIconOnly",
 		"buttonHighlighted",
 		"buttonWithColor",
 		"buttonWithMenu",
 		"buttonWithShortcut",
-		"buttonWithHelp"
+		"buttonWithHelp",
+		"buttonWithDifferentFont"
 	],
 	"name" : "SpecDemoButtonsPresenter",
 	"type" : "normal"

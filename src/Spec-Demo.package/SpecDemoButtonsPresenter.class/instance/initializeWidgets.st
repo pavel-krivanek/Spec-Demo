@@ -11,6 +11,10 @@ initializeWidgets
 		label: 'with icon';
 		icon: (self iconNamed: #pharo);
 		yourself.		
+	buttonWithIconOnly := self newButton 
+		icon: (self iconNamed: #pharo);
+		help: 'This button has only icon, no label';
+		yourself.		
 	buttonHighlighted := self newButton 
 		label: 'highlighted';
 		state: true;
@@ -28,9 +32,14 @@ initializeWidgets
 		label: 'with shortcut';
 		yourself.	
 	buttonWithHelp := self newButton 
-		help: 'This button shows help';
 		label: 'with help';
-		dragEnabled: true;
+		help: 'This button shows
+a multiline help';
+		yourself.	
+
+	buttonWithDifferentFont := self newButton 
+		label: 'different font';
+		font: StandardFonts codeFont;
 		yourself.	
 			
 	self focusOrder 

@@ -16,6 +16,7 @@ defaultSpec
 				row add: #buttonNormal.
 				row add: #buttonDisabled.
 				row add: #buttonWithIcon.
+				row add: #buttonWithIconOnly.
 				row add: #buttonHighlighted.
 				 ] height: buttonHeight.
 			
@@ -24,6 +25,7 @@ defaultSpec
 				row add: #buttonWithMenu.
 				row add: #buttonWithShortcut.
 				row add: #buttonWithHelp.
+				row add: #buttonWithDifferentFont.
 				 ] 	height: buttonHeight.
 
 
