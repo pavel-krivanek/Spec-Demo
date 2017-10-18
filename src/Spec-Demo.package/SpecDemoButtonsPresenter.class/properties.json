@@ -7,7 +7,13 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"buttonNormal",
-		"buttonDisabled"
+		"buttonDisabled",
+		"buttonWithIcon",
+		"buttonHighlighted",
+		"buttonWithColor",
+		"buttonWithMenu",
+		"buttonWithShortcut",
+		"buttonWithHelp"
 	],
 	"name" : "SpecDemoButtonsPresenter",
 	"type" : "normal"

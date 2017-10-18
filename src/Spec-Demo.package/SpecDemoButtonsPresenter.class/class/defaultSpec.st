@@ -12,16 +12,21 @@ defaultSpec
 	^ SpecLayout composed
 		newColumn: [ :col | 
 
-
-	col newRow: [ :row | 
+		col newRow: [ :row | 
 				row add: #buttonNormal.
-				row add: #buttonDisabled ]
-			height: rowHeight*1.3.
+				row add: #buttonDisabled.
+				row add: #buttonWithIcon.
+				row add: #buttonHighlighted.
+				 ] height: buttonHeight.
+			
+		col newRow: [ :row | 
+				row add: #buttonWithColor.
+				row add: #buttonWithMenu.
+				row add: #buttonWithShortcut.
+				row add: #buttonWithHelp.
+				 ] 	height: buttonHeight.
 
 
 		"fill the rest of the space"
-		col newRow: [ :row |  ].
-			
-			 ] 
-			
+		col newRow: [ :row |  ] ]; 
 		yourself.	
