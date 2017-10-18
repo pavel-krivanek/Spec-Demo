@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Model",
+	"super" : "Object",
 	"category" : "Spec-Demo-Forms",
 	"classinstvars" : [ ],
 	"pools" : [ ],

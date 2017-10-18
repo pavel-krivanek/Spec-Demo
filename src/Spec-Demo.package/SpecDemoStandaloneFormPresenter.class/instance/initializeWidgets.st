@@ -2,10 +2,10 @@ initialization
 initializeWidgets
 
 	nameLabel := self newLabel label: 'name:'.
-	nameTextInput := self newTextInput.
+	nameTextInput := self newTextInput autoAccept: true.
 
 	surnameLabel := self newLabel label: 'surname:'.
-	surnameTextInput := self newTextInput.
+	surnameTextInput := self newTextInput autoAccept: true.
 	surnameTextInput ghostText: 'empty'.
 
 	number1Label := self newLabel label: 'number 1:'.
