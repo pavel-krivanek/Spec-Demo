@@ -15,4 +15,10 @@ initializeWidgets
 		label: 'with help';
 		help: 'this is checkbox with help';
 		yourself.
+	checkboxWithLabelOnLeft := self newCheckBox 
+		label: 'left';
+		yourself.
+		
+	self whenBuiltDo: [ 
+		checkboxWithLabelOnLeft labelOnLeft.].		
 																						

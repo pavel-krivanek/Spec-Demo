@@ -9,7 +9,8 @@
 		"checkboxNormal",
 		"checkboxDisabled",
 		"checkboxWithColor",
-		"checkboxWithHelp"
+		"checkboxWithHelp",
+		"checkboxWithLabelOnLeft"
 	],
 	"name" : "SpecDemoCheckboxesPresenter",
 	"type" : "normal"

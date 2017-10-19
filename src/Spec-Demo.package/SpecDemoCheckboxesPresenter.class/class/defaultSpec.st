@@ -17,6 +17,7 @@ defaultSpec
 				row add: #checkboxDisabled.
 				row add: #checkboxWithColor.
 				row add: #checkboxWithHelp.
+				row add: #checkboxWithLabelOnLeft.
 				 ] height: rowHeight.
 			
 		"col newRow: [ :row | 
