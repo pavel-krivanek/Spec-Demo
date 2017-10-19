@@ -12,7 +12,9 @@
 		"fieldDisabled",
 		"labelGhostText",
 		"filedGhostText",
-		"fieldGhostText"
+		"fieldGhostText",
+		"labelEncrypted",
+		"fieldEncrypted"
 	],
 	"name" : "SpecDemoTextInputPresenter",
 	"type" : "normal"

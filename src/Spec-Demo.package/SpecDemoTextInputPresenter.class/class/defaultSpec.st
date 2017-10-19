@@ -27,6 +27,11 @@ defaultSpec
 				row add: #fieldGhostText ]
 			height: rowHeight.
 
+			col newRow: [ :row | 
+				row add: #labelEncrypted right: labelsWidth.
+				row add: #fieldEncrypted ]
+			height: rowHeight.
+
 		"fill the rest of the space"
 		col newRow: [ :row |  ].
 			
