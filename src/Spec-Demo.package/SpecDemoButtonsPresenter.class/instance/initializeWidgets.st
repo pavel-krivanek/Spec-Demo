@@ -46,9 +46,11 @@ a multiline help';
 		add: buttonNormal;
 		add: buttonDisabled;
 		add: buttonWithIcon;
+		add: buttonWithIconOnly;
 		add: buttonHighlighted;
 		add: buttonWithColor;
 		add: buttonWithMenu;
 		add: buttonWithShortcut;
-		add: buttonWithHelp.
+		add: buttonWithHelp;
+		add: buttonWithDifferentFont.
 																																																								

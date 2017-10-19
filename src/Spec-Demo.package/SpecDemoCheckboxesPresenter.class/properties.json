@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "Spec-Demo-Checkboxes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"checkboxNormal",
+		"checkboxDisabled",
+		"checkboxWithColor",
+		"checkboxWithHelp"
+	],
+	"name" : "SpecDemoCheckboxesPresenter",
+	"type" : "normal"
+}

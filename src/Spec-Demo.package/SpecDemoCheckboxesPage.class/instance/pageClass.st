@@ -1,4 +1,4 @@
 initialization
 pageClass
 
-	^ DatePresenter
+	^ SpecDemoCheckboxesPresenter
