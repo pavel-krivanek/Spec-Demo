@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpecDemoPage",
+	"category" : "Spec-Demo-TextInput",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpecDemoTextInputPage",
+	"type" : "normal"
+}

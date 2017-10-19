@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "Spec-Demo-TextInput",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"labelNormal",
+		"fieldNormal",
+		"labelDisabled",
+		"fieldDisabled",
+		"labelGhostText",
+		"filedGhostText",
+		"fieldGhostText"
+	],
+	"name" : "SpecDemoTextInputPresenter",
+	"type" : "normal"
+}

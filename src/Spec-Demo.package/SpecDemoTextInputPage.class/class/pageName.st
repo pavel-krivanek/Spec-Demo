@@ -1,0 +1,4 @@
+specs
+pageName
+
+	^ 'Text input'
