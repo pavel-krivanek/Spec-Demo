@@ -9,7 +9,7 @@ initializeWidgets
 	surnameTextInput ghostText: 'empty'.
 
 	number1Label := self newLabel label: 'number 1:'.
-	number1Input := self newTextInput.
+	number1Input := self newTextInput  autoAccept: true..
 
 	number2Label := self newLabel label: 'number 2:'.
 	number2Input := self newTextInput.
