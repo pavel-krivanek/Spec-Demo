@@ -11,6 +11,6 @@ initializePresenter
 		FileStream stdout nextPutAll: (receivedText -> newText) asString; lf.
 		newText = receivedText ifFalse: [ 
 			self number1Input textHolder rawValue: newText.
-			self number1Input textHolder valueChanged]
+			self number1Input textHolder valueChanged: newText]
 		
 		 ]
