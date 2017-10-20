@@ -8,9 +8,6 @@ initializePresenter
 		| receivedText newText |
 		receivedText := self number1Input text asString.
 		newText := receivedText select: [ :aCharacter | aCharacter isDigit ].
-		FileStream stdout nextPutAll: (receivedText -> newText) asString; lf.
 		newText = receivedText ifFalse: [ 
 			self number1Input textHolder rawValue: newText.
-			self number1Input textHolder valueChanged: newText]
-		
-		 ]
+			self number1Input textHolder valueChanged: newText] ]
