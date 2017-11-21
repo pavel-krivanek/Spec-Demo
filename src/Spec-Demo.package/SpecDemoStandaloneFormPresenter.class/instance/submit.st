@@ -5,5 +5,5 @@ submit
 	workingModel surname: self surnameTextInput text.
 	
 	self model: workingModel.
-	self specCompatibleModel valueChanged.
+	self announcingObject valueChanged.
 	

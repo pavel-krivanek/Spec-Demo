@@ -5,7 +5,7 @@ initializeWidgets
 
 	form := (self instantiate: SpecDemoLabeledContainer)
 		label: 'form';
-		subwidget: (self instantiate:  SpecDemoStandaloneFormPresenter on: self specCompatibleModel).
+		subwidget: (self instantiate:  SpecDemoStandaloneFormPresenter on: self announcingObject).
 	table := (self instantiate: SpecDemoLabeledContainer)
 		label: 'result';
 		subwidget: (tablePresenter := self newList).
