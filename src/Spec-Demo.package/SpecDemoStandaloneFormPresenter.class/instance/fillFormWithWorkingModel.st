@@ -1,9 +1,15 @@
 initialization
 fillFormWithWorkingModel
 
-	self nameTextInput text: self workingModel name.
-	self surnameTextInput text: self workingModel surname.	
-	self number1Input text: self workingModel number1.
-	self number2Input text: self workingModel number2.
+	| aModel |
+	
+	aModel := self workingModel.
+
+	self nameTextInput text: aModel name.
+	self surnameTextInput text: aModel surname.	
+	self number1Input text: aModel number1 asString.
+	self number2Input text: aModel number2 asString.
+	self scaleInput value: aModel scale.
+	self passwordInput text: aModel password.
 
 	

@@ -9,16 +9,16 @@ initializeWidgets
 	surnameTextInput ghostText: 'empty'.
 
 	number1Label := self newLabel label: 'number 1:'.
-	number1Input := self newTextInput  autoAccept: true..
+	number1Input := self newTextInput autoAccept: true.
 
 	number2Label := self newLabel label: 'number 2:'.
-	number2Input := self newTextInput.
+	number2Input := self newTextInput autoAccept: true.
 
 	scaleLabel := self newLabel label: 'scale:'.
 	scaleInput := self newSlider.
 
 	passwordLabel := self newLabel label: 'password:'.
-	passwordInput := self newTextInput encrypted: true.
+	passwordInput := self newTextInput encrypted: true; autoAccept: true..
 
 	checkboxLabel := self newLabel label: 'remember me'.
 	checkboxInput := self newCheckBox state: true.

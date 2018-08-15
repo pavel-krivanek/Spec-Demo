@@ -8,7 +8,7 @@ initialize
 	number1 := 1.
 	number2 := 12.
 	scale := 42.
-	password := password.
+	password := 'password'.
 	rememberMe := true.
 	date := Date today.
 	gender := #male.
