@@ -1,4 +1,4 @@
-initialization
+model updates
 fillFormWithWorkingModel
 
 	| aModel |
@@ -11,5 +11,9 @@ fillFormWithWorkingModel
 	self number2Input text: aModel number2 asString.
 	self scaleInput value: aModel scale.
 	self passwordInput text: aModel password.
+	self checkboxInput state: aModel rememberMe.
+	self dateInput date: aModel date.
+	
+	genderGroup default: (genderButtons detect: [:each | each key = aModel gender]) value.
 
 	

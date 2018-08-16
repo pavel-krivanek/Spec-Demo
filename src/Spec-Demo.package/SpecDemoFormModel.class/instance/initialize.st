@@ -10,7 +10,7 @@ initialize
 	scale := 42.
 	password := 'password'.
 	rememberMe := true.
-	date := Date today.
+	date := '2018-01-01' asDate.
 	gender := #male.
 	selectedItems := #('item 3' 'item 4').
 	

@@ -29,12 +29,13 @@ initializeWidgets
 	dateLabel := self newLabel label: 'date:'.
 	dateInput := self instantiate: DatePresenter.
 	dateInput displayBlock: [:item | item yyyymmdd ].
+	
+	genderButtons := self model genders collect: [ :each |
+		each -> (RadioButtonPresenter new label: each asString) ].  
 
 	genderLabel := self newLabel label: 'gender:'.
 	genderGroup := self instantiate: RadioButtonGroupPresenter .
-	genderGroup
-		addRadioButton: (RadioButtonPresenter new label: 'male');
-		addRadioButton: (RadioButtonPresenter new label: 'female').
+	genderButtons do: [ :each | genderGroup addRadioButton: each value].
 	
 	itemsLabel := self newLabel label: 'items:'.
 	itemsInput := self newList.
