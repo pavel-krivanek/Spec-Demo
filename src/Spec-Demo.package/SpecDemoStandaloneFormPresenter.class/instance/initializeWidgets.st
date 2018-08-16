@@ -39,7 +39,8 @@ initializeWidgets
 	
 	itemsLabel := self newLabel label: 'items:'.
 	itemsInput := self newList.
-	itemsInput items: (1 to: 5).
+	itemsInput beMultipleSelection.
+	itemsInput items: self model items.
 
 	submitButton := self newButton label: 'Submit'.
 	restoreButton := self newButton label: 'Restore'.

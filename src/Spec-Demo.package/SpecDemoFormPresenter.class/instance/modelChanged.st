@@ -13,5 +13,6 @@ modelChanged
 		aModel rememberMe.
 		aModel color.
 		aModel date.
-		aModel gender. };
+		aModel gender.
+		aModel selectedItems };
 		displayBlock: [:item | item asString].

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ComposablePresenter",
-	"category" : "Spec-Demo",
+	"category" : "Spec-Demo-Main",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -13,3 +13,4 @@ fillModelWithFormContent
 
 	 self workingModel gender: (genderButtons detect: [:each | each value = genderGroup currentActivated]) key.
 	
+	self workingModel selectedItems: self itemsInput selectedItems.

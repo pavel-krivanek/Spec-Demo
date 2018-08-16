@@ -16,4 +16,7 @@ fillFormWithWorkingModel
 	
 	genderGroup default: (genderButtons detect: [:each | each key = aModel gender]) value.
 
-	
+	self workingModel items withIndexDo: [ :item :index |
+		(self workingModel selectedItems includes: item) ifTrue: [
+			self itemsInput setSelectionStateFor: index at: true ]].
+	self itemsInput changed: #listElementAt:

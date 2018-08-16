@@ -10,6 +10,7 @@ initializeWidgets
 	list 
 		items: self availablePages;
 		displayBlock: [:item | item pageName].
+
 	page := (self instantiate: selectedPage).
 	
 	self focusOrder 
