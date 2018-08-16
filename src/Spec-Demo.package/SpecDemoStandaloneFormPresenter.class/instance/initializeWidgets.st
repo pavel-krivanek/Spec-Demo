@@ -28,6 +28,7 @@ initializeWidgets
 
 	dateLabel := self newLabel label: 'date:'.
 	dateInput := self instantiate: DatePresenter.
+	dateInput displayBlock: [:item | item yyyymmdd ].
 
 	genderLabel := self newLabel label: 'gender:'.
 	genderGroup := self instantiate: RadioButtonGroupPresenter .
