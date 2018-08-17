@@ -10,5 +10,5 @@ defaultSpec
 	^ SpecLayout composed
 		newRow: [ :row | 
 			row add: #form right: formWidth.
-			row add: #table];
+			row add: #resultPane];
 		yourself.	

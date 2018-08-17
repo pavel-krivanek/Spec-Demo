@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposablePresenterWithModel",
+	"super" : "FTSimpleDataSource",
 	"category" : "Spec-Demo-Forms",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"form",
-		"resultPane",
-		"table"
+		"model"
 	],
-	"name" : "SpecDemoFormPresenter",
+	"name" : "SpecDemoFormTableDataSource",
 	"type" : "normal"
 }
