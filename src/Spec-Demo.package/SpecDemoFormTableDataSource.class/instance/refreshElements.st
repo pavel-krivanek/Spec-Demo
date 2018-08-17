@@ -9,7 +9,6 @@ refreshElements
 		'scale' -> self model scale.
 		'password' -> self model password.
 		'rememberMe' -> self model rememberMe.
-		'color' -> self model color.
 		'date' -> self model date.
 		'gender' -> self model gender.
 		'items' -> self model selectedItems }

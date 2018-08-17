@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "PavelKrivanek 10/14/2017 17:59",
+	"commentStamp" : "PavelKrivanek 8/17/2018 12:11",
 	"super" : "ComposablePresenterWithModel",
 	"category" : "Spec-Demo-Forms",
 	"classinstvars" : [ ],
@@ -21,8 +21,6 @@
 		"passwordInput",
 		"checkboxLabel",
 		"checkboxInput",
-		"colorLabel",
-		"colorInput",
 		"dateLabel",
 		"dateInput",
 		"genderLabel",

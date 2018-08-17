@@ -1,0 +1,1 @@
+Utility class for connection of the SpecDemoFormModel with a fast table

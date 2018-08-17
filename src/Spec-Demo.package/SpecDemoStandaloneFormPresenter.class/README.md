@@ -1,1 +1,1 @@
-SpecDemoStandaloneFormPresenter new openWithSpec
+The presenter that provides only the standalone form for the form demo

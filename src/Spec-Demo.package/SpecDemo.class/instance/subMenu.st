@@ -23,7 +23,7 @@ subMenu
 					action: [ self inform: 'Print' ] ].
 			group addItem: [ :item |
 				item 
-					name: 'Kill';
-					shortcut: $k meta;
+					name: 'Close';
+					shortcut: $c meta;
 					icon: (self iconNamed: #smallCancelIcon);
 					action: [ self inform: 'Kill' ] ] ]

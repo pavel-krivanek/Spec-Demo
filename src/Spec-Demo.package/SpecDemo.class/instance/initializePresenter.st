@@ -8,9 +8,7 @@ initializePresenter
 			ifFalse: [
 				self selectedPage: newPageClass. 
 				page := self instantiate: newPageClass.
-				"list setSelectedItem: self model pageClass."
 				
 				self needRebuild: false.
 				self buildWithSpec.
-				list setSelectedItem: self selectedPage.
-				]].
+				list setSelectedItem: self selectedPage ]].

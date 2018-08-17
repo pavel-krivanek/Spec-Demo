@@ -1,0 +1,1 @@
+Simple structure-like model for the form demo

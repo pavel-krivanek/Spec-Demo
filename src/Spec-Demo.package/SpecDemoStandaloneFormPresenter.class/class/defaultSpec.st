@@ -48,11 +48,6 @@ defaultSpec
 			height: rowHeight*2.
 
 		col newRow: [ :row | 
-				row add: #colorLabel right: labelsWidth.
-				row add: #colorInput ]
-			height: rowHeight.
-
-		col newRow: [ :row | 
 				row add: #dateLabel right: labelsWidth.
 				row add: #dateInput ]
 			height: rowHeight.

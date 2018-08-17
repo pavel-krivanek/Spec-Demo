@@ -1,0 +1,1 @@
+A superclass for particular Spec demo pages, that need to define a page name and priority in the list of demos.

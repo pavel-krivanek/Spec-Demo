@@ -23,9 +23,6 @@ initializeWidgets
 	checkboxLabel := self newLabel label: 'remember me'.
 	checkboxInput := self newCheckBox state: true.
 
-	colorLabel := self newLabel label: 'color:'.
-	colorInput := self newTextInput.
-
 	dateLabel := self newLabel label: 'date:'.
 	dateInput := self instantiate: DatePresenter.
 	dateInput displayBlock: [:item | item yyyymmdd ].
@@ -52,6 +49,5 @@ initializeWidgets
 		add: number2Input;
 		add: scaleInput;
 		add: passwordInput;
-		add: checkboxInput;
-		add: colorInput.
+		add: checkboxInput.
 		

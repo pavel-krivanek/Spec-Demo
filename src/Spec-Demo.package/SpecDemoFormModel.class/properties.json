@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PavelKrivanek 8/17/2018 12:09",
 	"super" : "Object",
 	"category" : "Spec-Demo-Forms",
 	"classinstvars" : [ ],
@@ -13,7 +13,6 @@
 		"scale",
 		"password",
 		"rememberMe",
-		"color",
 		"date",
 		"gender",
 		"selectedItems"

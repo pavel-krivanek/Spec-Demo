@@ -14,6 +14,5 @@ newDataTable
 	tableDataSource addColumnsTo: aTable widget.
 	aTable widget dataSource: tableDataSource.
 
-					
 	^ aTable
 		
