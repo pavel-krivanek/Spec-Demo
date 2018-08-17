@@ -3,9 +3,8 @@ defaultSpec
 
 	<spec: #default>
 
-	| fontWidth labelsWidth rowHeight checkboxWidth buttonHeight |
+	| fontWidth rowHeight buttonHeight |
 	fontWidth := (StandardFonts defaultFont widthOfString: 'M').
-	labelsWidth := fontWidth * 8.
 	rowHeight := self inputTextHeight.
 	buttonHeight := rowHeight*1.3.
 	
@@ -27,7 +26,6 @@ defaultSpec
 				row add: #buttonWithHelp.
 				row add: #buttonWithDifferentFont.
 				 ] 	height: buttonHeight.
-
 
 		"fill the rest of the space"
 		col newRow: [ :row |  ] ]; 

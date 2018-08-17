@@ -3,11 +3,10 @@ defaultSpec
 
 	<spec: #default>
 
-	| fontWidth labelsWidth rowHeight checkboxWidth |
+	| fontWidth labelsWidth rowHeight |
 	fontWidth := (StandardFonts defaultFont widthOfString: 'M').
 	labelsWidth := fontWidth * 8.
 	rowHeight := self inputTextHeight.
-	checkboxWidth := fontWidth * 2.
 	
 	^ SpecLayout composed
 		newColumn: [ :col | 
@@ -33,8 +32,6 @@ defaultSpec
 			height: rowHeight.
 
 		"fill the rest of the space"
-		col newRow: [ :row |  ].
-			
-			 ] 
+		col newRow: [ :row |  ] ]; 
 			
 		yourself.	

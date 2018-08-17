@@ -67,10 +67,7 @@ defaultSpec
 				row add: #restoreButton ]
 			height: rowHeight*1.3.
 
-
 		"fill the rest of the space"
-		col newRow: [ :row |  ].
-			
-			 ] 
+		col newRow: [ :row |  ] ];
 			
 		yourself.	

@@ -3,9 +3,6 @@ labelTop2
 
 	"<spec: #default>"
 
-	| rowHeight |
-	rowHeight := self inputTextHeight.
-
 	^ SpecLayout composed
 		newColumn: [ :column | 
 			column
